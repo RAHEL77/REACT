@@ -12,14 +12,16 @@ function App() {
         alt = "logo" / >
         <
         p >
-        Edit < code > src / App.js < /code> and save to reload. < /
-        p > <
+        Edit < code > src / App.js < /code> and save to reload. <
+        /p> <
         a className = "App-link"
         href = "https://reactjs.org"
         target = "_blank"
         rel = "noopener noreferrer" >
-        click me < /a> < /
-        header > <
+        Click!
+        <
+        /a> <
+        /header> <
         /div>
     );
 }
