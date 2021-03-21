@@ -15,8 +15,6 @@ class App extends React.Component {
     })
   }
 
-
-
   /* shows colors as a text */
   render() {
     return (
