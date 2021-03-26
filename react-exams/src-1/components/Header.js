@@ -1,19 +1,17 @@
 import React from 'react';
-
-const HomePage=()=>{
+const Header=()=>{
     return(
         <div
         className='ui raised very padded text container segment'
         style={{marginTop:'80px'}}
         >
-            <h3 className='ui header'>HomePage</h3>
-            <p>HOMEPAGE
+            <h3 className='ui header'>Header</h3>
+            
+            <p>Lorem10 fa.sjdhfklsdffl;ksdjflkdfjlkdjflk
+    
             </p>
         </div>
+
     )
 }
-export default HomePage;
-
-
-
-
+export default Header;

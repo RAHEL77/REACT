@@ -1,5 +1,4 @@
 import React from 'react';
-
 const HomePage=()=>{
     return(
         <div
@@ -7,13 +6,12 @@ const HomePage=()=>{
         style={{marginTop:'80px'}}
         >
             <h3 className='ui header'>HomePage</h3>
-            <p>HOMEPAGE
+            
+            <p>Lorem10 fa.sjdhfklsdffl;ksdjflkdfjlkdjflk
+    
             </p>
         </div>
+
     )
 }
 export default HomePage;
-
-
-
-

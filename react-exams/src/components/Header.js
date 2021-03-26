@@ -6,12 +6,8 @@ const Header=()=>{
         style={{marginTop:'80px'}}
         >
             <h3 className='ui header'>Header</h3>
-            
-            <p>Lorem10 fa.sjdhfklsdffl;ksdjflkdfjlkdjflk
-    
-            </p>
+            <p>HEADER</p>
         </div>
-
     )
 }
 export default Header;
