@@ -1,26 +1,32 @@
 import React from 'react';
-import DataStore from './dataStore';
+import DataStore from '../DataStore';
 import {Link} from 'react-router-dom';
-const Product=()=>{
+
+class Product extends React.Component {
+
+constructor(props){
+  super()
+  this.state = {
+      dataStore : []
+  }
+}
+
+componentDidMount = () => {
+  this.setState({dataStore : DataStore})
+} 
+
+render(){
     return(
-        <div>
-            
-        <div
-        className='ui raised very padded text container segment'
-        style={{marginTop:'80px'}}
-        > <Link to='/card/baruh' className='ui header'>Baruh</Link>
-          <p>PRODUCT
-          </p>
-        </div>
+         
+               <div className="producTitle">
+               {this.state.dataStore.map(e =>{
+                   return <h1 key={e.id}><Link to={`/producTitle/${e.id}`} >{e.title}</Link></h1>
+               } )}
              
-        <div
-        className='ui raised very padded text container segment'
-        style={{marginTop:'80px'}}
-        > <Link to='/card/rach' className='ui header'>Rache</Link>
-          <p>PRODUCT
-          </p>
-        </div>
         </div>
     )
 }
+
+}
+
 export default Product;
