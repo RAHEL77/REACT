@@ -16,11 +16,10 @@ componentDidMount = () => {
 } 
 
 render(){
-    return(
-         
-               <div className="producTitle">
+    return(        
+               <div>
                {this.state.dataStore.map(e =>{
-                   return <h1 key={e.id}><Link to={`/producTitle/${e.id}`} >{e.title}</Link></h1>
+                   return <h2><h3>{e.title}</h3></h2>
                } )}
              
         </div>
