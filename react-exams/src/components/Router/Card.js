@@ -4,7 +4,7 @@ class Card extends React.Component{
     state={user:''}
     componentDidMount(){
         let user=this.props.match.params.user
-this.setState({user:user})
+        this.setState({user:user})
     }
     render(){
         const{user}=this.state
