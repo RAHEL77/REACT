@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-// import React, {Component, useState} from 'react'
 
 const StateHook=(props)=>{
     const [count,setCount]=useState(1);
@@ -8,7 +7,6 @@ const StateHook=(props)=>{
         <div>
             <p> Click {count} times </p>
             <button onClick={()=>setCount(count+1)}>+Click</button>
-            {/* <button onClick={()=>this.setState({count:this.state.count+1})}>+Click</button> */}
 
         </div>
     )
